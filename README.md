@@ -45,3 +45,6 @@ __RSS__
 __HTTP__
 - [Load the content from a website with urllib.request](http/urlib.ipynb)
 - [Extract the text from a HTML document with Beautiful Soup](http/beautifulsoup4.ipynb)
+
+__Image__
+- tbd
