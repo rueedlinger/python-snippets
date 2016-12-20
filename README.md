@@ -34,10 +34,14 @@ pip install -r requirements.txt
 ``` 
 
 ## The Python Snippets
-The snippets are organized by topic.
+The Python snippets are organized by topic.
 
 __GeoJSON__
-- [GeoJSON Example - Stations](geojson/geojson_stations.ipynb)
+- [Convert a pandas DataFrame to GeoJSON (Stations) ](geojson/geojson_stations.ipynb)
 
 __RSS__
 - [Parse a RSS feed with feedparser](rss/feedparser.ipynb)
+
+__HTTP__
+- [Load the content from a website with urllib.request](http/urlib.ipynb)
+- [Extract the text from a HTML document with Beautiful Soup](htpp/beautifulsoup4.ipynb)
