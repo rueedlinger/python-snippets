@@ -1,6 +1,6 @@
 # Python Snippets
 
-These __Python Snippets__ are tested with Python 3.6.x. All snippets are 
+These __Python Snippets__ are tested with Python 3.7.x. and are
 available as Jupyter notebooks (http://jupyter.org/).
 
 
