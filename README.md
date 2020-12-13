@@ -4,29 +4,53 @@ These __Python Snippets__ are tested with Python 3.6.x. All snippets are
 available as Jupyter notebooks (http://jupyter.org/).
 
 
-## Get started...
-To get started create a virtual environment and install the required packages. 
+## Getting Started
+All the required Python packages can be installed with `pipenv`.
 
-- Juypter Notebook
-- pandas 
-- geojson
-- beautifulsoup4
-- feedparser
-- scikit-image 
-- matplotlib
-
-
-### Conda
-The following example shows how to create an environment with _"conda"_ 
-(http://conda.pydata.org/) and Python 3.6 with
-the required packages.
+### Project Setup
+First you nee to install `pipenv`.
 
 ```bash
-conda create -n py36-ps python=3.6
+$ pip install --user pipenv
+```
 
-source activate py36-ps
+Install all the required packages
 
-``` 
+```bash
+$ pipenv install --dev
+```
+
+### Run the Notebook
+You can start `jupyter-lab` to play around with the Juypter notebooks.
+
+
+```bash
+pipenv run jupyter-lab
+```
+
+### Run the Tests (nbval)
+To test the Jupyter notebooks this project uses [nbval](https://github.com/computationalmodelling/nbval), which is a `py.test` 
+plugin for validating Jupyter notebooks.
+
+
+This will check all Jupyter notebooks for errors.
+
+```bash
+pipenv run py.test --nbval-lax
+```
+
+### Upgrade Python Packages
+Check which packages have changed.
+
+```
+pipenv update --outdated
+```
+
+This will upgrade everything.
+
+```bash
+pipenv update
+```
 
 ## The Python Snippets
 The Python snippets are organized by topic.
