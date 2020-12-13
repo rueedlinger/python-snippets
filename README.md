@@ -52,6 +52,9 @@ This will upgrade everything.
 pipenv update
 ```
 
+## CI Build (GitHub Actions)
+- ![CI Build](https://github.com/rueedlinger/python-snippets/workflows/CI%20Build/badge.svg)
+
 ## The Python Snippets
 The Python snippets are organized by topic.
 
