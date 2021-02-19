@@ -17,7 +17,7 @@ $ pip install --user pipenv
 Install all the required packages
 
 ```bash
-$ pipenv install --dev
+pipenv install --dev
 ```
 
 ### Run the Notebook
